@@ -8,6 +8,13 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+
+### 4.0.3-edge3 (2015-01-05)
+
+Bugfix:
+- Apple App Store validations failed because of a private API was used
+(fixes [#728](https://github.com/AppGyver/steroids/issues/728)).
+
 ### 4.0.3-edge2 (2014-12-23):
 
 Features:
