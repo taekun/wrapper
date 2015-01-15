@@ -9,6 +9,15 @@ The changelog for **stable** releases is available [here](https://github.com/App
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
 
+### 4.0.3-rc1 (2015-01-15)
+
+Changes:
+- Compile with full support for 64bit architecture.
+- App Store Scanner includes the new [Push Notifications plugin](https://github.com/AppGyver/PushNotifications).
+
+Bugfix:
+- Fix crash when you select a picture on iPad and the popover auto-closes.
+
 ### 4.0.3-edge3 (2015-01-05)
 
 Bugfix:
@@ -39,7 +48,7 @@ Bugfix:
 ### 4.0.2-edge1 (2014-12-03):
 
 Changes:
-- Speed up Cordova `deviceready` on all iOS devices by changing the way Cordova's plugins are loaded. 
+- Speed up Cordova `deviceready` on all iOS devices by changing the way Cordova's plugins are loaded.
 
 Features:
 - Pixate `navigation-bar back-button` has been implemented
