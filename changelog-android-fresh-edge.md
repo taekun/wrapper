@@ -1,3 +1,9 @@
+## 4.0.4-edge4 (2015-01-16):
+
+Bugfix:
+- Sometimes application crashed when exiting with back button.
+  Fixes [#731](https://github.com/AppGyver/steroids/issues/731).
+
 ## 4.0.4-edge3 (2014-12-23):
 
 Features:
