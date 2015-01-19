@@ -1,3 +1,9 @@
+## 4.0.4-edge5 (2015-01-19):
+
+Bugfix:
+- Ignore hiding of splash screen when application is shutting down.
+  Fixes [#731](https://github.com/AppGyver/steroids/issues/731) harder.
+
 ## 4.0.4-edge4 (2015-01-16):
 
 Bugfix:
