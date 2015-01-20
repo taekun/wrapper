@@ -6,6 +6,29 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.3 (TODO): 64bit support
+
+### Changes
+- Compile with full support for 64bit architecture.
+- App Store Scanner includes the new [Push Notifications plugin](https://github.com/AppGyver/PushNotifications).
+
+### Features
+- Support for fade animations when displaying a modal. EXPEDITED.
+- Support for PNG as type of output image from `steroids.screen.capture`. EXPEDITED.
+
+### Bugfixes
+- Fixed issue with iOS native popover causing modals to crash on iPad. Fixes [#601](https://github.com/AppGyver/steroids/issues/601). EXPEDITED.
+
+### Known issues
+- Navigation bar appears a second after the page load [#767](https://github.com/AppGyver/steroids/issues/767)
+- Splashscreen on landscape-only builds is displayed wrong [#599](https://github.com/AppGyver/steroids/issues/599)
+- Portrait splashscreen is rotated to landscape if device orientation changes while showing the splashscreen [#594](https://github.com/AppGyver/steroids/issues/594)
+- `steroids.screen.rotate` fires false success callback after trying to rotate to an unallowed direction [#598](https://github.com/AppGyver/steroids/issues/598)
+- `steroids.screen.dismissAlert` is broken after the update of cordova-plugin-dialogs to 0.2.10.
+- In a landscape-only build in iOS8 opening the BarCode Scanner renders the screen half gray [#560](https://github.com/AppGyver/steroids/issues/560)
+- Landscape-only builds crash when Cordova Camera is used [#455](https://github.com/AppGyver/steroids/issues/455)
+- When popping layers navigation bar buttons lose the styles defined in `ios.css`. This is a Pixate issue, but adding `font-weight: 300` or any other number to `navigation-bar` in `ios.css` fixes the issue temporarily.
+
 ## 4.0.2 (2014-12-18): JSCore crashing fixed and other stability improvements
 
 ### Changes
