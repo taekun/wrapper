@@ -1,3 +1,9 @@
+## 4.0.4-edge6 (2015-01-20):
+
+Changes:
+- Allow third party cookies on Android >= 5.0 when using the platform webview
+  (delivers [#697](https://github.com/AppGyver/steroids/issues/697)).
+
 ## 4.0.4-edge5 (2015-01-19):
 
 Bugfix:
