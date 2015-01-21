@@ -3,7 +3,7 @@
 Changes:
 - Vertical scrolling in a drawer is now more sensitive and friendlier.
 
-## 4.0.4-edge6 (2015-01-20):
+## 4.0.4-edge6 (2015-01-20): Promoted to 4.0.4
 
 Changes:
 - Allow third party cookies on Android >= 5.0 when using the platform webview
