@@ -1,6 +1,6 @@
 # Changelog for AppGyver Scanner (Android)
 
-## 4.0.4 (TODO)
+## 4.0.4 (2014-01-21)
 
 ### Changes:
 - Allow third party cookies on Android >= 5.0 when using the platform webview
