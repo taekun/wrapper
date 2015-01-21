@@ -1,5 +1,41 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.0.4 (TODO)
+
+### Changes:
+- Allow third party cookies on Android >= 5.0 when using the platform webview
+  (delivers [#697](https://github.com/AppGyver/steroids/issues/697)).
+
+### Features:
+- Options for modal show and hide (animations, navigation bar)
+- `steroids.screen.rotate` now fires callbacks for transition started and ended
+- Support for [Push Notifications](https://github.com/AppGyver/PushNotifications) plugin. Please see the [guide for setup instructions](http://docs.appgyver.com/supersonic/guides/).
+
+### Bugfixes:
+- Images in navigation bar title/buttons did not show up in Ad Hoc builds. Closes [#651](https://github.com/AppGyver/steroids/issues/651).
+- Unload gave a false success callback and did not unload the view. Closes [#656](https://github.com/AppGyver/steroids/issues/656).
+- The `visibilityState` for a preloaded view was incorrect. Closes [#655](https://github.com/AppGyver/steroids/issues/655).
+- Fixed splash screen `autohide: false` to work correctly.
+- Fixed a bug where after hiding a modal on top of a layer with back button in nav bar the back-indicator in the view below used to disappear.
+- Fixed a bug where a view thought it was hidden (`document.visibilityState && document.hidden`) when it was not if `visibilityChange` had not fired yet.
+- `steroids.navigationBar` behaviour was inconsistent between Android and iOS in preloaded views. Fixes [#646](https://github.com/AppGyver/steroids/issues/646).
+- `steroids.app.getMode` returned "scanner" in Standalone builds.
+- Cordova plugins could not add native views because `CordovaWebViewInterface#getParent()` returned null. Fixes [#588](https://github.com/AppGyver/steroids/issues/588).
+- `steroids.app.getLaunchURL` returned undefined even after launching from web.
+- Fixed an issue that was causing a NPE when using the localStorage.
+- The Cordova `backbutton` event fired incorrectly on the first page, e.g. not doing anything on the first press of the back button. Fixes [#617](https://github.com/AppGyver/steroids/issues/617).
+- Fixed an issue where e.g. `ng-cordova.js` would be read from `ng-cordova-merged.js`
+- Modals were not discarded after hide or hideAll if they were non-preloaded. Fixes [#686](https://github.com/AppGyver/steroids/issues/686).
+- Sometimes application crashed when exiting with back button.
+  Fixes [#731](https://github.com/AppGyver/steroids/issues/731).
+
+### Known issues:
+- Crosswalk Chromium WebViews appear as stretched for a moment after focusing out from a Native UI Control or after rotation [#574](https://github.com/AppGyver/steroids/issues/574).
+- On Crosswalk Viewport size must be defined in the HTML or content will appear as zoomed out
+  ([#297](https://github.com/AppGyver/steroids/issues/297)). In hybrid apps this causes in iOS the drawers to scroll. Suggested workaround for this is to create a different layout for the Steroids application's CONTENT and DRAWER.
+- Navigation bar appears a second after the page load [#767](https://github.com/AppGyver/steroids/issues/767).
+- `navigationBar.setStyleCSS` does not apply style [#586](https://github.com/AppGyver/steroids/issues/586).
+
 ## 4.0.3 (2014-12-03): Sped up Cordova deviceready
 
 ### Changes:
