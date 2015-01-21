@@ -1,3 +1,8 @@
+## 4.0.5-edge1 (2015-01-21):
+
+Changes:
+- Vertical scrolling in a drawer is now more sensitive and friendlier.
+
 ## 4.0.4-edge6 (2015-01-20):
 
 Changes:
