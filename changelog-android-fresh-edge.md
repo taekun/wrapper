@@ -2,6 +2,7 @@
 
 Changes:
 - Vertical scrolling in a drawer is now more sensitive and friendlier.
+  See the test application for reference [how to adjust the values](https://github.com/AppGyver/steroids-js/pull/140/files).
 
 ## 4.0.4-edge6 (2015-01-20): Promoted to 4.0.4
 
