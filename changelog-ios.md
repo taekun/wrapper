@@ -6,7 +6,7 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
-## 4.0.3 (TODO): 64bit support
+## 4.0.3 (2014-01-22): 64bit support
 
 ### Changes
 - Compile with full support for 64bit architecture.
