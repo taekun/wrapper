@@ -1,3 +1,13 @@
+## 4.0.5-edge2 (2015-01-27): Update selected Cordova plugins
+
+Changes:
+- Update Cordova plugins:
+  - FileTransfer: 0.4.9-dev
+  - File: 1.3.2
+  - Media: 0.2.16-dev
+  - Media-Capture: 0.3.6-dev
+  - InAppBrowser: 0.5.4
+
 ## 4.0.5-edge1 (2015-01-21):
 
 Changes:
