@@ -9,7 +9,12 @@ The changelog for **stable** releases is available [here](https://github.com/App
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
 
-### 4.0.3-rc1 (2015-01-15)
+### 4.0.4-edge1 (2015-01-27)
+
+Changes:
+- Update Cordova InAppBrowser plugin to 0.5.4
+
+### 4.0.3-rc1 (2015-01-15): Promoted to 4.0.3 (stable)
 
 Changes:
 - Compile with full support for 64bit architecture.
