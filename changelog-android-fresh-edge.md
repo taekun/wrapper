@@ -1,3 +1,10 @@
+## 4.0.5-edge3 (2015-01-29): Cordova plugin updates
+
+Changes-
+- Fix FileTransfer plugin errors; use 0.4.8 instead of the bleeding edge.
+  Fixes [#791](https://github.com/AppGyver/steroids/issues/791).
+- Update Camera plugin to 0.3.4
+
 ## 4.0.5-edge2 (2015-01-27): Update selected Cordova plugins
 
 Changes:
