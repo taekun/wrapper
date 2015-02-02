@@ -3,7 +3,7 @@
 This document holds up-to-date information on the runtime versions used in various AppGyver/Steroids components.
 
 ## iOS
-* **[App Store Scanner](https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8):** 4.0.2
+* **[App Store Scanner](https://itunes.apple.com/us/app/appgyver-scanner/id575076515?mt=8):** 4.0.3
 * **Build Service Stable Builds:** 4.0.3
 * **Build Service Edge Builds:** 4.0.4-edge1
 * **iOS Simulator (bundled with Steroids CLI):** 4.0.3
