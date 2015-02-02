@@ -1,6 +1,16 @@
+## 4.0.5-edge4 (2015-02-02): Custom Animations for layers.push
+
+Features:
+- Custom animations for layers.push. Delivers [#482](https://github.com/AppGyver/steroids/issues/482).
+
+Bugfixes:
+- Empty navigation bar was displayed when none was defined. Fixes [#729](https://github.com/AppGyver/steroids/issues/729).
+- Update FileTransfer plugin to include cookie support for Crosswalk runtimes. It accidentally went missing after last plugin update.
+
+
 ## 4.0.5-edge3 (2015-01-29): Cordova plugin updates
 
-Changes-
+Changes:
 - Fix FileTransfer plugin errors; use 0.4.8 instead of the bleeding edge.
   Fixes [#791](https://github.com/AppGyver/steroids/issues/791).
 - Update Camera plugin to 0.3.4
