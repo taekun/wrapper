@@ -1,3 +1,9 @@
+## 4.0.5-edge5 (2015-02-11):
+
+Bugfixes:
+- Push with custom animation threw null pointer exception in some cases. Introduced in #482.
+- A previously hidden tab bar was being displayed when calling `layer.push()`.
+
 ## 4.0.5-edge4 (2015-02-02): Custom Animations for layers.push
 
 Features:
