@@ -1,3 +1,11 @@
+## 4.0.5-edge6 (2015-02-20):
+
+Changes:
+- Support for the fixed Push Notifications plugin (1.2.0). You can try it
+  by including `https://github.com/AppGyver/PushNotifications.git#next`
+  in the Build Service (please notice `#next` in the url).
+
+
 ## 4.0.5-edge5 (2015-02-11):
 
 Bugfixes:
