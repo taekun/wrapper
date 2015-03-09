@@ -1,3 +1,8 @@
+## 4.0.5-edge7 (2015-03-09):
+
+Bugfixes:
+- Fixed issue where Cordova `deviceready` event would not fire on Crosswalk builds when numerous assets (i.e. JavaScript/CSS/image files) were loaded. Will close [#722](https://github.com/AppGyver/steroids/issues/772).
+
 ## 4.0.5-edge6 (2015-02-20):
 
 Changes:
