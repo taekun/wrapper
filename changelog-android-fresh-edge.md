@@ -1,3 +1,8 @@
+## 4.0.5-edge8 (2015-03-11):
+
+Bugfixes:
+- Fixed an issue where opening an app via a custom URL scheme would not function correctly. Will close [#861](https://github.com/AppGyver/steroids/issues/861).
+
 ## 4.0.5-edge7 (2015-03-09):
 
 Bugfixes:
