@@ -1,3 +1,8 @@
+## 4.0.5-edge9 (2015-03-12):
+
+Changes:
+- Update Faceook SDK to 3.21.1
+
 ## 4.0.5-edge8 (2015-03-11):
 
 Bugfixes:
