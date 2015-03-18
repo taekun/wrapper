@@ -1,3 +1,8 @@
+## 4.0.5-edge11 (2015-03-18):
+
+Breaking changes:
+- The Android permissions `ACCESS_FINE_LOCATION`, `MODIFY_AUDIO_SETTINGS`, `RECORD_AUDIO` and `WAKE_LOCK` are no longer required automatically for all Android Crosswalk builds. Instead, you must set the applicable permissions in your app's Android Build Configuration page in the Build Service.
+
 ## 4.0.5-edge10 (2015-03-18):
 
 Breaking changes:
