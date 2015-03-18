@@ -1,3 +1,11 @@
+## 4.0.5-edge10 (2015-03-18):
+
+Breaking changes:
+- Deprecate `steroids.app.getLaunchURL()`.
+
+Features:
+- Add support for `steroids.app.getLaunchURI()`, which correctly returns the custom URI scheme used to launch the app. Will close [#868](https://github.com/AppGyver/steroids/issues/868).
+
 ## 4.0.5-rc1 (2015-03-18): Multiple Scanner applications
 
 Features:
