@@ -1,3 +1,11 @@
+## 4.0.5-rc1 (2015-03-18): Multiple Scanner applications
+
+Features:
+- Scanner supports multiple applications. You can scan the applications deployed
+  to the cloud and keep them available for later use. Local Steroids CLI
+  applications are displayed as one application, however.
+
+
 ## 4.0.5-edge9 (2015-03-12):
 
 Changes:
@@ -11,9 +19,9 @@ Bugfixes:
 ## 4.0.5-edge7 (2015-03-09):
 
 Bugfixes:
-- Fixed issue where Cordova `deviceready` event would not fire on Crosswalk builds when numerous assets (i.e. JavaScript/CSS/image files) were loaded. Will close [#722](https://github.com/AppGyver/steroids/issues/772).
-- Fixed issue where pages on Crosswalk would sometimes show blank before reload. Will close [#771](https://github.com/AppGyver/steroids/issues/771).
-- Fixed issue where the `inAppBrowser` plugin would not perform POST and GET requests reliably in the background on Crosswalk builds. Will close [#657](https://github.com/AppGyver/steroids/issues/657).
+- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds when numerous assets (i.e. JavaScript/CSS/image files) were loaded. Fixes [#722](https://github.com/AppGyver/steroids/issues/772).
+- Fix issue where pages on Crosswalk would sometimes show blank before reload. Fixes [#771](https://github.com/AppGyver/steroids/issues/771).
+- Fix issue where the `inAppBrowser` plugin would not perform POST and GET requests reliably in the background on Crosswalk builds. Fixes [#657](https://github.com/AppGyver/steroids/issues/657).
 
 ## 4.0.5-edge6 (2015-02-20):
 
