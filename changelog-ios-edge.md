@@ -8,6 +8,10 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.4-edge2 (2015-03-19)
+
+Breaking changes:
+- Hardcoded Ionic keyboard plugin removed due to numerous bugs. To bring it back in your app, please include the plugin from https://github.com/driftyco/ionic-plugins-keyboard.git manually to your iOS build settings.
 
 ### 4.0.4-edge1 (2015-01-27)
 
