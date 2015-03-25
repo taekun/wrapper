@@ -17,7 +17,6 @@ Features:
 - Scanner supports multiple applications. You can scan the applications deployed
   to the cloud and keep them available for later use. Local Steroids CLI
   applications are displayed as one application, however.
-- Support for AppGyver Sandbox. Delivers [#92](https://github.com/AppGyver/steroids/issues/92).
 
 ## 4.0.5-edge9 (2015-03-12):
 
