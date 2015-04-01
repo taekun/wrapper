@@ -1,3 +1,7 @@
+## 4.0.5-edge12 (2015-04-01):
+
+- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Will close [#722](https://github.com/AppGyver/steroids/issues/772).
+
 ## 4.0.5-edge11 (2015-03-18):
 
 Breaking changes:
