@@ -2,7 +2,7 @@
 
 ## 4.0.5 (2015-05-25)
 
-Scanner now supports multiple cloud apps. In addition, this update contains bugfixes and .
+Scanner has a redesigned scan screen that supports multiple cloud apps. In addition, this release contains many bugfixes and several new features.
 
 Breaking changes:
 - The Android permissions `ACCESS_FINE_LOCATION`, `MODIFY_AUDIO_SETTINGS`, `RECORD_AUDIO` and `WAKE_LOCK` are no longer required automatically for all Android Crosswalk builds. Instead, you must set the applicable permissions in your app's Android Build Configuration page in the Build Service.
