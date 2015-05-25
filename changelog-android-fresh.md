@@ -2,94 +2,38 @@
 
 ## 4.0.5 (2015-05-25)
 
-
+Scanner now supports multiple cloud apps. In addition, this update contains bugfixes and .
 
 Breaking changes:
 - The Android permissions `ACCESS_FINE_LOCATION`, `MODIFY_AUDIO_SETTINGS`, `RECORD_AUDIO` and `WAKE_LOCK` are no longer required automatically for all Android Crosswalk builds. Instead, you must set the applicable permissions in your app's Android Build Configuration page in the Build Service.
-
-Bugfixes:
-- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Will close [#722](https://github.com/AppGyver/steroids/issues/772).
-
-
-
-## 4.0.5-edge10 (2015-03-18):
-
-Breaking changes:
-
+- Deprecate `steroids.app.getLaunchURL()`.
+- Only support v1.2.0 and newer of the AppGyver [Push Notifications plugin](https://github.com/AppGyver/PushNotifications.git).
 
 Features:
-- Add support for `steroids.app.getLaunchURI()`, which correctly returns the custom URI scheme used to launch the app. Will close [#868](https://github.com/AppGyver/steroids/issues/868).
-
-## 4.0.5-rc1 (2015-03-18): Multiple Scanner applications
-
-Features:
-- Scanner supports multiple applications. You can scan the applications deployed
-  to the cloud and keep them available for later use. Local Steroids CLI
-  applications are displayed as one application, however.
-
-## 4.0.5-edge9 (2015-03-12):
-
-Changes:
+- Add support for `steroids.app.getLaunchURI()`, which correctly returns the custom URI scheme used to launch the app. Closes [#868](https://github.com/AppGyver/steroids/issues/868).
+- Scanner now supports multiple applications. You can scan the applications deployed to the cloud and keep them available for later use. Local Steroids CLI applications are displayed as one application.
 - Update Facebook SDK to 3.21.1
-
-## 4.0.5-edge8 (2015-03-11):
-
-Bugfixes:
-- Fixed an issue where opening an app via a custom URL scheme would not function correctly. Will close [#861](https://github.com/AppGyver/steroids/issues/861).
-
-## 4.0.5-edge7 (2015-03-09):
-
-Bugfixes:
-- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds when numerous assets (i.e. JavaScript/CSS/image files) were loaded. Fixes [#722](https://github.com/AppGyver/steroids/issues/772).
-- Fix issue where pages on Crosswalk would sometimes show blank before reload. Fixes [#771](https://github.com/AppGyver/steroids/issues/771).
-- Fix issue where the `inAppBrowser` plugin would not perform POST and GET requests reliably in the background on Crosswalk builds. Fixes [#657](https://github.com/AppGyver/steroids/issues/657).
-
-## 4.0.5-edge6 (2015-02-20):
-
-Changes:
-- Support for the fixed Push Notifications plugin (1.2.0). You can try it
-  by including `https://github.com/AppGyver/PushNotifications.git#next`
-  in the Build Service (please notice `#next` in the url).
-
-
-## 4.0.5-edge5 (2015-02-11):
-
-Bugfixes:
-- Push with custom animation threw null pointer exception in some cases. Introduced in #482.
-- A previously hidden tab bar was being displayed when calling `layer.push()`.
-
-## 4.0.5-edge4 (2015-02-02): Custom Animations for layers.push
-
-Features:
-- Custom animations for layers.push. Delivers [#482](https://github.com/AppGyver/steroids/issues/482).
-
-Bugfixes:
-- Empty navigation bar was displayed when none was defined. Fixes [#729](https://github.com/AppGyver/steroids/issues/729).
-- Update FileTransfer plugin to include cookie support for Crosswalk runtimes. It accidentally went missing after last plugin update.
-
-
-## 4.0.5-edge3 (2015-01-29): Cordova plugin updates
-
-Changes:
-- Fix FileTransfer plugin errors; use 0.4.8 instead of the bleeding edge.
-  Fixes [#791](https://github.com/AppGyver/steroids/issues/791).
-- Update Camera plugin to 0.3.4
-
-## 4.0.5-edge2 (2015-01-27): Update selected Cordova plugins
-
-Changes:
-- Update Cordova plugins:
-  - FileTransfer: 0.4.9-dev
+- Custom animations for `supersonic.ui.layers.push`. Delivers [#482](https://github.com/AppGyver/steroids/issues/482).
+- Update selected Cordova plugins:
+  - Camera: 0.3.4 
+  - FileTransfer: 0.4.8 (closes [#791](https://github.com/AppGyver/steroids/issues/791))
   - File: 1.3.2
   - Media: 0.2.16-dev
   - Media-Capture: 0.3.6-dev
   - InAppBrowser: 0.5.4
 
-## 4.0.5-edge1 (2015-01-21):
-
+Bugfixes:
+- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Related issue: 
+[#722](https://github.com/AppGyver/steroids/issues/772).
+- Fixed an issue where opening an app via a custom URL scheme would not function correctly. Will close [#861](https://github.com/AppGyver/steroids/issues/861).
+- Fix issue where pages on Crosswalk would sometimes show blank before reload. Fixes [#771](https://github.com/AppGyver/steroids/issues/771).
+- Fix issue where the `InAppBrowser` plugin would not perform POST and GET requests reliably in the background on Crosswalk builds. Fixes [#657](https://github.com/AppGyver/steroids/issues/657).
+- Fix issue where pushing a layer with custom animation threw a null pointer exception in some cases.
+- Fix previously hidden tab bar being displayed when calling `layer.push()`.
+- Empty navigation bar was displayed when none was defined. Fixes [#729](https://github.com/AppGyver/steroids/issues/729).
+- Update FileTransfer plugin to include cookie support for Crosswalk runtimes.
 Changes:
-- Vertical scrolling in a drawer is now more sensitive and friendlier.
-  See the test application for reference [how to adjust the values](https://github.com/AppGyver/steroids-js/pull/140/files).
+- Vertical scrolling in a drawer is now more sensitive and friendlier. See the Steroids.js test application for reference on [how to adjust the values](https://github.com/AppGyver/steroids-js/blob/master/testApp/config/application.coffee).
 
 ## 4.0.4 (2015-01-21)
 
