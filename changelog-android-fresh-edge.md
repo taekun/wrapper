@@ -1,3 +1,12 @@
+## 4.0.6-edge1 (2015-05-26):
+
+Bugfixes:
+- SVG icons now show up correctly in ad hoc builds. Will close [#632](https://github.com/AppGyver/steroids/issues/632).
+- Navigation bar title is no longer misaligned when buttons are set on only one side. Will close [#843](https://github.com/AppGyver/steroids/issues/843).
+- Can now push and replace layers from inside a drawer. Will close [#946](https://github.com/AppGyver/steroids/issues/946).
+- Android Crosswalk apps no longer constantly consume 20% CPU. Will close [#583](https://github.com/AppGyver/steroids/issues/583) and [#841](https://github.com/AppGyver/steroids/issues/841).
+- Cordova plugins that utilize the InAppBrowser plugin internally no longer create platform WebViews in Crosswalk builds. Will close [#933](https://github.com/AppGyver/steroids/issues/933).
+
 ## 4.0.5-edge12 (2015-04-01):
 
 - Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Will close [#722](https://github.com/AppGyver/steroids/issues/772).
