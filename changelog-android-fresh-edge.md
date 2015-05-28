@@ -1,3 +1,7 @@
+## 4.0.6-edge2 (2015-05-28):
+- Tab bar icons can now be properly resized with native CSS on Android. Will close [#867](https://github.com/AppGyver/steroids/issues/867).
+- Changed Android native bridge mode to `PRIVATE_API` to (hopefully) fix issues where Cordova callbacks would not fire (resulting also in `deviceready` not firing). Related issues [#722](https://github.com/AppGyver/steroids/issues/772), [#783](https://github.com/AppGyver/steroids/issues/783) and [#872](https://github.com/AppGyver/steroids/issues/872).
+
 ## 4.0.6-edge1 (2015-05-26):
 
 Bugfixes:
