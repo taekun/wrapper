@@ -1,4 +1,18 @@
+## 4.0.6-edge3 (2015-06-04):
+
+Changes:
+- Updated Pixate to latest version, with some minor bugfixes.
+- Cordova `deviceready` event now prints a warning log line after 10 seconds instead of 5. This is to prevent false alarms when multiple preloads cause the event to fire late.
+
+Bugfixes:
+- Fixed native bridge related crash introduced in 4.0.6-edge2. Will close [#964](https://github.com/AppGyver/steroids/issues/964).
+- Scanner no longer fails if one of the IPs included in QR code errors out before one of them invokes the success callback. Will close [#552](https://github.com/AppGyver/steroids/issues/552).
+- Tab bar images now respond properly to taps again. Will close [#956](https://github.com/AppGyver/steroids/issues/956).
+- Animation APIs no longer crash if given a duration that is not a number. Furthermore, string type durations are cast into numbers before evaluating them (i.e. `duration: "0.6"` works now). This is to match iOS behavior.
+
 ## 4.0.6-edge2 (2015-05-28):
+
+Bugfixes:
 - Tab bar icons can now be properly resized with native CSS on Android. Will close [#867](https://github.com/AppGyver/steroids/issues/867).
 - Changed Android native bridge mode to `PRIVATE_API` to (hopefully) fix issues where Cordova callbacks would not fire (resulting also in `deviceready` not firing). Related issues [#722](https://github.com/AppGyver/steroids/issues/772), [#783](https://github.com/AppGyver/steroids/issues/783) and [#872](https://github.com/AppGyver/steroids/issues/872).
 
