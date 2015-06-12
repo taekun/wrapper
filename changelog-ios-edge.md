@@ -8,6 +8,18 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.4-edge3 (2015-06-12)
+
+Features:
+- Implemented new `steroids.app.getLaunchURI` method. Deprecates `steroids.app.getLaunchURL`. Will close [#910](https://github.com/AppGyver/steroids/issues/910).
+
+Changes:
+- Hardcoded Crittercism plugin removed from builds, allowing users to include the Crittercism plugin themselves. Will close [#573](https://github.com/AppGyver/steroids/issues/573).
+
+Bugfixes:
+- Update Pixate native CSS library to latest version, fixing some minor bugs.
+
+
 ### 4.0.4-edge2 (2015-03-19)
 
 Breaking changes:
