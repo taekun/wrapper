@@ -1,3 +1,11 @@
+## 4.0.6-edge4 (2015-06-12):
+
+Changes:
+- Wrapper loads application in a separate thread
+
+Features:
+- `steroids.view.navigationBar.setStyleCSS`, closes [#586](https://github.com/AppGyver/steroids/issues/586).
+
 ## 4.0.6-edge3 (2015-06-04):
 
 Changes:
