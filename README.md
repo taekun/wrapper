@@ -1,8 +1,10 @@
-AppGyver Native Runtime changelog
-=================================
+AppGyver Wrapper Changelog
+==========================
 
-**GitHub Issues have migrated to http://github.com/AppGyver/steroids/issues/ for all Steroids components – please post all issues there!**
+**GitHub Issues for all AppGyver products can be found at http://github.com/AppGyver/steroids/issues/ – please post all issues there!**
 
-Changelogs for the AppGyver iOS, Android and Fresh Android native runtimes, both stable and [Edge versions](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions).
+Changelogs for the AppGyver Wrapper for iOS and Android.
 
-To see which native runtime version various AppGyver components use, see the [Steroids native runtime versions](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md) document.
+The Edge versions include upcoming features that have not yet been packaged into a stable release. Edge versions are available via the [Build Service](https://cloud.appgyver.com/applications/).
+
+To see which version of the AppGyver Wrapper various AppGyver components use, see the [native runtime versions](https://github.com/AppGyver/wrapper/blob/master/runtime-versions.md) document.
