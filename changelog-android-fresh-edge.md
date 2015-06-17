@@ -1,3 +1,9 @@
+## 4.0.6-rc1 (TODO):
+
+Features:
+- `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12 (available in next branch on GitHub).
+- Support for selecting a file on device with `<input type="file">`, closes [#426](https://github.com/AppGyver/steroids/issues/426).
+
 ## 4.0.6-edge4 (2015-06-12):
 
 Changes:
