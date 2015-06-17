@@ -1,4 +1,4 @@
-## 4.0.6-rc1 (TODO):
+## 4.0.6-rc1 (2015-06-17):
 
 Features:
 - `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12 (available in next branch on GitHub).
