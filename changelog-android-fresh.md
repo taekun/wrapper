@@ -1,6 +1,6 @@
 # Changelog for AppGyver Scanner (Android)
 
-## 4.0.6 (TODO)
+## 4.0.6 (2015-06-23)
 
 Changes:
 - Wrapper loads application in a separate thread
