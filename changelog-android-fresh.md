@@ -1,5 +1,28 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.0.6 (TODO)
+
+Changes:
+- Wrapper loads application in a separate thread
+- Updated Pixate to latest version, with some minor bugfixes.
+- Cordova `deviceready` event now prints a warning log line after 10 seconds instead of 5. This is to prevent false alarms when multiple preloads cause the event to fire late.
+
+Features:
+- `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12 (available in next branch on GitHub).
+- Support for selecting a file on device with `<input type="file">`, closes [#426](https://github.com/AppGyver/steroids/issues/426).
+- `steroids.view.navigationBar.setStyleCSS`, closes [#586](https://github.com/AppGyver/steroids/issues/586).
+
+Bugfixes:
+- Scanner no longer fails if one of the IPs included in QR code errors out before one of them invokes the success callback. Closes [#552](https://github.com/AppGyver/steroids/issues/552).
+- Animation APIs no longer crash if given a duration that is not a number. Furthermore, string type durations are cast into numbers before evaluating them (i.e. `duration: "0.6"` works now). This is to match iOS behavior.
+- Tab bar icons can now be properly resized with native CSS on Android. Closes [#867](https://github.com/AppGyver/steroids/issues/867).
+- Changed Android native bridge mode to `PRIVATE_API` to (hopefully) fix issues where Cordova callbacks would not fire (resulting also in `deviceready` not firing). Related issues [#722](https://github.com/AppGyver/steroids/issues/772), [#783](https://github.com/AppGyver/steroids/issues/783) and [#872](https://github.com/AppGyver/steroids/issues/872).
+- SVG icons now show up correctly in ad hoc builds. Closes [#632](https://github.com/AppGyver/steroids/issues/632).
+- Navigation bar title is no longer misaligned when buttons are set on only one side. Closes [#843](https://github.com/AppGyver/steroids/issues/843).
+- Can now push and replace layers from inside a drawer. Closes [#946](https://github.com/AppGyver/steroids/issues/946).
+- Android Crosswalk apps no longer constantly consume 20% CPU. Closes [#583](https://github.com/AppGyver/steroids/issues/583) and [#841](https://github.com/AppGyver/steroids/issues/841).
+- Cordova plugins that utilize the InAppBrowser plugin internally no longer create platform WebViews in Crosswalk builds. Closes [#933](https://github.com/AppGyver/steroids/issues/933).
+
 ## 4.0.5 (2015-05-25)
 
 Scanner has a redesigned scan screen that supports multiple cloud apps. In addition, this release contains many bugfixes and several new features.
