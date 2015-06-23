@@ -21,7 +21,6 @@ Bugfixes:
 - Navigation bar title is no longer misaligned when buttons are set on only one side. Closes [#843](https://github.com/AppGyver/steroids/issues/843).
 - Can now push and replace layers from inside a drawer. Closes [#946](https://github.com/AppGyver/steroids/issues/946).
 - Android Crosswalk apps no longer constantly consume 20% CPU. Closes [#583](https://github.com/AppGyver/steroids/issues/583) and [#841](https://github.com/AppGyver/steroids/issues/841).
-- Cordova plugins that utilize the InAppBrowser plugin internally no longer create platform WebViews in Crosswalk builds. Closes [#933](https://github.com/AppGyver/steroids/issues/933).
 
 ## 4.0.5 (2015-05-25)
 
