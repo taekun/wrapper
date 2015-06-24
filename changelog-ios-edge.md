@@ -8,6 +8,15 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.4-rc1 (2015-06-23)
+
+Features:
+- **iOS9 support**, will close [#968](https://github.com/AppGyver/steroids/issues/968).
+- `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12.
+
+Bugfixes:
+- Fixes bug introduced in 4.0.4-edge2 which caused the Ionic Keyboard plugin not work even if included from the Build Service
+
 ### 4.0.4-edge3 (2015-06-12)
 
 Features:
