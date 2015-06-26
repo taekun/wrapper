@@ -11,7 +11,7 @@ The runtime versions currently in use by each AppGyver component can be found [h
 ### 4.0.4-rc1 (2015-06-23)
 
 Features:
-- **iOS9 support**, will close [#968](https://github.com/AppGyver/steroids/issues/968).
+- **iOS9 support**, will close [#968](https://github.com/AppGyver/steroids/issues/968). Note that until the GM is released by Apple we can not update our Build Service to XCode 7 beta and apps will not be fully iOS9 supported. We will update the Build Service once it will not prohibit submitting apps to app store.
 - `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12.
 
 Bugfixes:
