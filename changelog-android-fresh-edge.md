@@ -1,3 +1,12 @@
+## 4.0.7-edge1 (2015-06-21):
+
+Features:
+- Native loading spinner. Used in place of `loading.html` if the `loading-view` native style is set. See examples of the native CSS at the [Steroids.js next branch](https://github.com/AppGyver/steroids-js/blob/next/testApp/www/native-styles/android.css#L8-L16).
+- Android CORS support with the `network.extraResponseHeaders` config in `config/app.coffee`. The following platform/OS limitations apply:
+  -  **All Crosswalk builds:** the `extraResponseHeaders` config in general is not supported. However, the `"Access-Control-Allow-Origin"` key is parsed for allowed addresses as a comma-separated list, so e.g. `"Access-Control-Allow-Origin": "http://stackoverflow.com/*, http://google.com/*"` will allow cross-domain traffic from both Google and StackOverflow.
+ - **Platform WebView builds on Android 5.0 and above:** the `extraResponseHeaders` config is fully supported.
+ - **Platform WebView builds below Android 5.0:** no support for the `extraResponseHeaders` config.
+
 ## 4.0.6-rc1 (2015-06-17):
 
 Features:
