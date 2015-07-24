@@ -8,6 +8,11 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.5-edge1 (2015-07-24)
+
+Bugfixes:
+- InAppBrowser plugin now follows redirects. Will close [#570](https://github.com/AppGyver/steroids/issues/570).
+
 ### 4.0.4-rc1 (2015-06-23)
 
 Features:
