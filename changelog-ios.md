@@ -6,6 +6,15 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.4 (2015-07-31): iOS9 support
+
+### Features
+- **iOS9 support**, closes [#968](https://github.com/AppGyver/steroids/issues/968). Note that until the GM is released by Apple we can not update our Build Service to XCode 7 beta and apps will not be fully iOS9 supported. We will update the Build Service once it will not prohibit submitting apps to app store.
+- `steroids.drawers.enable/disable`, requires Supersonic 1.5.8 or Steroids.js 3.5.12.
+
+### Bugfixes
+- Fixes bug which caused the Ionic Keyboard plugin not work even if included from the Build Service
+
 ## 4.0.3 (2015-01-22): 64bit support
 
 ### Changes
