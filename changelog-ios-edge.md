@@ -8,6 +8,17 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.5-rc1 (2015-08-04)
+
+Features:
+- Support for `enableScroll` and `disableScroll` API's, coming soon in SuperSonic!
+
+Bugfixes:
+- Fixed bug introduced in 4.0.4 which caused the scanner to ignore statusBar disabled setting. Will close [#1009](https://github.com/AppGyver/steroids/issues/1009).
+- Stability and improved performance for Enterprise Scanner
+  - Apps are opened faster
+  - Problem with apps not appearing at the start of the app has been fixed
+
 ### 4.0.5-edge1 (2015-07-24)
 
 Bugfixes:
