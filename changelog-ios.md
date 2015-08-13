@@ -6,6 +6,18 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.5 (2015-08-13)
+
+Features:
+- Support for `enableScroll` and `disableScroll` API's, coming soon in SuperSonic!
+
+Bugfixes:
+- Fixed bug introduced in 4.0.4 which caused the scanner to ignore statusBar disabled setting. Will close [#1009](https://github.com/AppGyver/steroids/issues/1009).
+- Stability and improved performance for Enterprise Scanner
+  - Apps are opened faster
+  - Problem with apps not appearing at the start of the app has been fixed
+- InAppBrowser plugin now follows redirects. Will close [#570](https://github.com/AppGyver/steroids/issues/570).
+
 ## 4.0.4 (2015-07-31): iOS9 support
 
 ### Features
