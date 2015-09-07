@@ -6,6 +6,12 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.6 (2015-08-07)
+
+Features:
+- Include the [Native Input plugin](https://github.com/AppGyver/input-plugin). 
+  Plugin allows the text input field stay in a fixed position in eg comment and chat applications.
+
 ## 4.0.5 (2015-08-13)
 
 Features:
