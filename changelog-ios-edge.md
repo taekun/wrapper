@@ -8,6 +8,11 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+### 4.0.8-rc1 (2015-10-26)
+
+Bugfixes:
+- Fixed bug with iOS InAppBrowser redirects. Will close [#570](https://github.com/AppGyver/steroids/issues/570).
+
 ### 4.0.5-rc1 (2015-08-04)
 
 Features:
