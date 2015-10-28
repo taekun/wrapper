@@ -1,5 +1,49 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.1.0 (2015-10-28)
+
+Major change:
+- Update to Crosswalk 14 with Chromium 43 (from Crosswalk 9 / Chromium 38), .
+  - BREAKING CHANGE: CSS rule `overflow: hidden` for `html` or `body` will break scrolling. Remove rules for overflow
+    or replace them with `overflow: auto`.
+  - Includes pull-down-to-refresh support by default. This cannot be disabled at the moment.
+
+You can find out example usage for the features from the
+[Steroids.js Test App](https://github.com/AppGyver/steroids-js/tree/master/testApp)
+or
+[Supersonic Test App](https://github.com/AppGyver/supersonic/tree/master/testApp).
+
+Features:
+- Add support for animation when presenting the loading view `(steroids.view.displayLoading())`.
+- Native Loading screen. A native view with an animated image in the middle. All visuals can be configured using native css.
+- Add support for reusing the same web view when adding to the layer stack.
+- Include type `push` or `pop` in the layer will change event.
+- Improved CORS support: override server accepted values for `Access-Control-Allow-Origin` in `application.coffee`.
+- New title bar button tap events mechanism.
+- GetNavigationBarState API handler.
+- QR Code Scanner is available through an API by default.
+- Native PDF Viewer and Media Gallery.
+- Native spinner with the ability to block the whole app until dismissed.
+
+Changes:
+- Build with Android SDK 23.
+- Use DeviceDefault.Light as the native Android theme for prettier native dialogs.
+- Improved overall performance.
+- Set default WebView background color to opaque white (from transparent white).
+- Delay loading of WebViews in other Tabs than the first by default.
+  By default WebViews on other tabs than the first are loaded automatically after 500ms.
+  This can be changed in an upcoming Steroids.js release with options
+  `lazy-automatic` (default), `lazy-manual` and `eager`.
+
+Fixes:
+- Make sure no duplicate handler functions can be added to WebView
+- Misplaced rotation on first display of the loading view.
+- Resolve white flicker when changing tabs.
+- Resolve title flicker when changing tabs or updating the title view.
+- Update the titleBar parameters when settings/updating native css properties.
+- Keep back button in the navbar when adding other buttons.
+- Platform WebView builds no longer include the Crosswalk library (reduces apk filesize).
+
 ## 4.0.6 (2015-06-23)
 
 Changes:
