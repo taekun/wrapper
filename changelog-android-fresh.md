@@ -1,5 +1,23 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.2.0 (2015-11-11)
+
+Major change:
+- Update to Crosswalk 17.45.432.0 (Canary) with Chromium 45.
+  - Updating to the latest Crosswalk was required to get support for 64 devices
+    (such as Samsung S6).
+  - Experimental pull-down-to-refresh introduced in 4.1.0 has been removed.
+    It requires more subtle control to the application in order to be actually usable.
+  - Custom builds with for target ARM+x86 will include arm, arm64 and x86 compatibility.
+
+- BREAKING CHANGE to versions 4.0.6 and older:
+  CSS rule `overflow: hidden` for `html` or `body` will break scrolling.
+  Remove rules for overflow or replace them with `overflow: auto`.
+
+Fixes:
+- Platform WebView crashed when executing Javascript on Android devices older than 4.3.
+  This issue did not affect Crosswalk builds.
+
 ## 4.1.0 (2015-10-28)
 
 Major change:
