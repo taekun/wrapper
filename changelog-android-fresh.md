@@ -1,5 +1,11 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.2.1 (2015-11-13)
+
+Fixes:
+- Use English locale always when transforming internal strings.
+  Having Turkish locale caused a crash when opening an application.
+
 ## 4.2.0 (2015-11-11)
 
 Major change:
