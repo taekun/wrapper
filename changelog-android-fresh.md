@@ -105,7 +105,7 @@ Features:
 - Update Facebook SDK to 3.21.1
 - Custom animations for `supersonic.ui.layers.push`. Delivers [#482](https://github.com/AppGyver/steroids/issues/482).
 - Update selected Cordova plugins:
-  - Camera: 0.3.4 
+  - Camera: 0.3.4
   - FileTransfer: 0.4.8 (closes [#791](https://github.com/AppGyver/steroids/issues/791))
   - File: 1.3.2
   - Media: 0.2.16-dev
@@ -113,7 +113,7 @@ Features:
   - InAppBrowser: 0.5.4
 
 Bugfixes:
-- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Related issue: 
+- Fix issue where Cordova `deviceready` event would not fire on Crosswalk builds harder. Related issue:
 [#722](https://github.com/AppGyver/steroids/issues/772).
 - Fixed an issue where opening an app via a custom URL scheme would not function correctly. Will close [#861](https://github.com/AppGyver/steroids/issues/861).
 - Fix issue where pages on Crosswalk would sometimes show blank before reload. Fixes [#771](https://github.com/AppGyver/steroids/issues/771).
