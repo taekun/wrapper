@@ -8,6 +8,13 @@ The changelog for **stable** releases is available [here](https://github.com/App
 
 The runtime versions currently in use by each AppGyver component can be found [here](https://github.com/AppGyver/scanner/blob/master/runtime-versions.md)
 
+
+### 4.0.9-edge1 (2015-11-20)
+
+Fixes:
+- Repackaging the app for MDM distribution with newer Citrix versions caused a crash.
+- Having a plain number in a navigation bar, native button or tab bar title caused a crash.
+
 ### 4.0.8-rc1 (2015-10-26)
 
 Bugfixes:

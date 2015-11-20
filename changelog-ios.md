@@ -6,6 +6,13 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.8 (2015-11-20)
+
+(promoted from 4.0.8-rc1)
+
+Bugfixes:
+- Fixed bug with iOS InAppBrowser redirects. Will close [#570](https://github.com/AppGyver/steroids/issues/570).
+
 ## 4.0.7 (2015-10-05)
 
 Features:
