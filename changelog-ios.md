@@ -10,6 +10,9 @@ For early access to new features and more complex bugfixes, **Edge** versions ar
 
 (promoted from 4.0.8-rc1)
 
+Changes:
+- [Enterprise Scanner] Supports native iPad resolution.
+
 Bugfixes:
 - Fixed bug with iOS InAppBrowser redirects. Will close [#570](https://github.com/AppGyver/steroids/issues/570).
 
