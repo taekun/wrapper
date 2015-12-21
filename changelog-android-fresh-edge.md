@@ -1,3 +1,7 @@
+## 4.2.2-edge1 (2015-12-21):
+
+- Fix issue where opening an InAppBrowser in Crosswalk build caused the app to crash. Will close [#1082](https://github.com/AppGyver/steroids/issues/1082)
+
 ## 4.0.7-edge1 (2015-06-21):
 
 Features:
