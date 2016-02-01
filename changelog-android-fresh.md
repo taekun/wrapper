@@ -1,5 +1,13 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.2.2 (2016-02-01)
+
+Features:
+- Allow Camera as an option for input type="file" for Crosswalk builds.
+
+Fixes:
+- Do not crash when opening a window with inappbrowser plugin.
+
 ## 4.2.1 (2015-11-13)
 
 Fixes:
