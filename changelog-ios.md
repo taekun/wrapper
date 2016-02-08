@@ -6,6 +6,15 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
+## 4.0.10 (TODO)
+
+(promoted from 4.0.9 to 4.0.10 because of trouble we had with Apple)
+
+Bugfixes:
+- Scanner now handles incoming push notifications from foreground & background better and will crash less / end in weird states less than before.
+- Fixed problem with repackaging the app for MDM distribution with newer Citrix versions caused a crash.
+- Fixed problem with having a plain number in a navigation bar, native button or tab bar title caused a crash.
+
 ## 4.0.8 (2015-11-20)
 
 (promoted from 4.0.8-rc1)
