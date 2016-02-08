@@ -6,7 +6,7 @@ This document contains the release notes for **stable** releases of the iOS Nati
 
 For early access to new features and more complex bugfixes, **Edge** versions are available via the Build Service. Read the [native runtime Edge version guide](https://academy.appgyver.com/categories/2-tooling/contents/86-native-runtime-edge-versions) for more information, and see the [changelog](https://github.com/AppGyver/scanner/blob/master/changelog-ios-edge.md) for release notes.
 
-## 4.0.10 (TODO)
+## 4.0.10 (2016-02-08)
 
 (promoted from 4.0.9 to 4.0.10 because of trouble we had with Apple)
 
