@@ -1,5 +1,17 @@
 # Changelog for AppGyver Scanner (Android)
 
+## 4.3.3 (2016-11-21)
+
+Features:
+- Enabled multidex support.
+- Display Camera as an option for `<input type="file">`.
+
+Bugfixes:
+- Backpordet Cordova fixes related to CVE-2014-3502.
+- Fixed a crash when tapping back button hard enough crashed the app.
+- Fixed some fringe crashes.
+
+
 ## 4.2.2 (2016-02-01)
 
 Features:
